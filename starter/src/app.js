@@ -1,7 +1,9 @@
 import {User} from "./User.js";
 import sortBy from "../../node_modules/lodash-es/sortBy.js";
 
+
 const mainContainer = document.querySelector("main");
+const buttonSortByAge = document.querySelector("#sort--age");
 let utilisateurs = [];
 
 function displayUsers(utilisateurs){
@@ -28,7 +30,5 @@ const getUsers = async() => {
     });
 }
 
-
-
-
 getUsers()
+

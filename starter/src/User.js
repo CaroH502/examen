@@ -47,7 +47,7 @@ export class User {
 				<p>${2023-this.age} years old</p>
 				<p> ${this.city}, ${this.country}</p>
 		</div>
-		<a href=" ${this.email}">
+		<a href="mailto:${this.email}">
 				<span class="mail">✉️</span>
 		</a>
         `
