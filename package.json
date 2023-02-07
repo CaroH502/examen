@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "parcel ./starter/src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build ./starter/src/index.html"
   },
   "author": "Simon Pinkas",
   "license": "ISC",
